@@ -1,0 +1,68 @@
+embedding_size: 64
+learning_rate_scheduler: [0.96, 50]
+learning_rate: 0.001
+reg_weight_1: 1e-05
+knn_k: 10
+n_ui_layers: 3 
+
+
+ # sports
+# n_layers: [1]
+# bm_loss: [0.01]
+# bm_temp: [0.2]
+# um_loss: [0.01]
+# um_temp: [0.1]
+# vt_loss: [0.01]
+# reg_weight_2: [0.1]
+# ris_lambda: [0.001]
+# ris_adj_lambda: [0.0001]
+# e_loss: [0.001]
+# trans: [3]
+
+
+
+ # baby
+n_layers: [2]
+bm_loss: [0.01]
+bm_temp: [0.4]
+um_loss: [0.1]
+um_temp: [0.4]
+vt_loss: [0.1]
+reg_weight_2: [0.1]
+ris_lambda: [0.5]
+ris_adj_lambda: [0.2]
+e_loss: [0.01]
+trans: [2]
+
+
+gnn_layer: 1
+keepRate: 1
+dims: '[1000]'
+steps: 5
+noise_scale: 0.1
+noise_min: 0.0001
+noise_max: 0.02
+rebuild_k: 1
+
+
+tstBat: 256
+d_emb_size: 10
+sampling_steps: 0
+sampling_noise: False
+popularity_power: 1 
+
+
+
+# clothing
+# n_layers: [1]
+#bm_loss: [0.0001]
+# bm_temp: [0.1]
+# um_loss: [0.01]
+# um_temp: [0.2]
+# vt_loss: [0.001]
+#reg_weight_2: [0.01]
+#ris_adj_lambda: [0.0001]
+#e_loss: [0.001]
+#trans: [4]
+
+hyper_parameters: ['n_layers','bm_loss','bm_temp','um_loss','um_temp','vt_loss','reg_weight_2','ris_adj_lambda','e_loss','trans']
