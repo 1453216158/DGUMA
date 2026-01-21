@@ -21,6 +21,7 @@ Performance comparison of baselines on different datasets in terms of Recall@20 
 
 ![](./result.png)
 
+## Acknowledgement
 We are particularly grateful to the authors of [MMReC][1], as parts of our code implementation were derived from this work.
 
 [1]: https://github.com/enoche/MMRec
