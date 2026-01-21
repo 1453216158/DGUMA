@@ -1,2 +1,26 @@
-# DGUMA
-Diffusion-Driven Graph and User Modal Augmentation for Multimodal Recommendations
+## DGUMA
+Diffusion-Driven Graph and User Modal Augmentation for Long-Tail Multimodal Recommendations
+
+## 📝 Environment
+We develop our codes in the following environment:
+
+- python==3.9.13
+- numpy==1.23.1
+- torch==1.11.0
+- scipy==1.9.1
+  
+## 🚀 How to run the codes
+```python
+cd ./src
+python main.py
+```
+
+## 🎯 Experimental Results
+
+Performance comparison of baselines on different datasets in terms of Recall@20 and NDCG@20:
+
+![](./result.png)
+
+We are particularly grateful to the authors of [MMReC][1], as parts of our code implementation were derived from this work.
+
+[1]: https://github.com/enoche/MMRec
