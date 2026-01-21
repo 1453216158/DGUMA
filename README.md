@@ -15,6 +15,12 @@ cd ./src
 python main.py
 ```
 
+## 👉 DataSet
+We provide three processed datasets: Baby, Sports, Clothing.
+
+Download from Baidu Netdisk:[Sports/Baby/Clothing][2]                  提取码: cz6u .
+
+
 ## 🎯 Experimental Results
 
 Performance comparison of baselines on different datasets in terms of Recall@20 and NDCG@20:
@@ -25,3 +31,4 @@ Performance comparison of baselines on different datasets in terms of Recall@20 
 We are particularly grateful to the authors of [MMReC][1], as parts of our code implementation were derived from this work.
 
 [1]: https://github.com/enoche/MMRec
+[2]:https://pan.baidu.com/s/1c7KFHVmC3Z2370DEJbztlg
